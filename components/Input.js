@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux"
 
-function Field({children, id, ...props}) {
+function Input({children, id, ...props}) {
   const dispatch = useDispatch()
   const state = useSelector(state => state)[id]
 
@@ -22,4 +22,4 @@ function Field({children, id, ...props}) {
   return <input value={state} onChange={inputHandler} />
 }
 
-export default Field
+export default Input
