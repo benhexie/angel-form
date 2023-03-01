@@ -1,14 +1,12 @@
-import React, { useState } from "react"
+import { Provider } from 'react-redux'
+import store from "../store"
 
 const Form = ({children, ...props}) => {
-  const [state, setState] = useState({})
-
-  // I'm trying to return a normal array here, 
-  // instead I'm getting JSX
-  return [
-    <form {...props}>{children}</form>, 
-    JSON.stringify(state)
-  ]
+  return (
+    <Provider store={store}>
+      <form {...props}>{children}</form>
+    </Provider>
+  )
 }
 
 export default Form
