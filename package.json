@@ -1,0 +1,15 @@
+{
+  "name": "@benhexie/angel-form",
+  "version": "1.0.0",
+  "description": "A stateful dynamic form generator for React.",
+  "main": "index.js",
+  "repository": "https://github.com/benhexie/angel-form.git",
+  "author": "Benedict Gabriel <benedictgabriel73@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "reactjs-stylesheet": "^1.0.9"
+  }
+}
