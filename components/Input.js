@@ -1,14 +1,20 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux"
 
-function Input({children, id, ...props}) {
+function Input({id, children, value, ...props}) {
   const dispatch = useDispatch()
   const state = useSelector(state => state)[id]
+
+  const inputContentHandler = () => {
+    if (value) return value
+    if (children) return children
+    return ''
+  }
 
   useEffect(() => {
     dispatch({
       type: 'SET_FORM_STATE',
-      payload: {[id]: String(children) || ''}
+      payload: {[id]: inputContentHandler()}
     })
   }, [])
   
@@ -19,7 +25,8 @@ function Input({children, id, ...props}) {
     })
   }
   
-  return <input value={state} onChange={inputHandler} />
+  return <input value={state ? state: ''} 
+            onChange={inputHandler} {...props} />
 }
 
 export default Input
