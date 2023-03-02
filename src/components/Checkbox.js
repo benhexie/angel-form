@@ -1,6 +1,5 @@
 import React, { Fragment, useEffect, useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import store from '../store'
 
 function Checkbox({insertID, id, children, name, ...props}) {
     if (insertID === undefined) insertID = true

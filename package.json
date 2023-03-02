@@ -2,7 +2,7 @@
   "name": "angel-form",
   "version": "1.0.3",
   "description": "A form state management package for React.",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/benhexie/angel-form.git",
   "author": "Benedict Gabriel <benedictgabriel73@gmail.com>",
   "license": "MIT",
@@ -15,14 +15,14 @@
     "form-validation"
   ],
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "prop-types": "^15.8.1",
+    "react-redux": "^8.0.5",
     "reactjs-stylesheet": "^1.0.9"
   },
-  "devDependencies": {
-    "react-redux": "^8.0.5"
-  }
+  "devDependencies": {}
 }
