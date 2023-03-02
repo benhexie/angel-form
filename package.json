@@ -1,6 +1,6 @@
 {
   "name": "angel-form",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A form state management package for React.",
   "main": "index.js",
   "repository": "https://github.com/benhexie/angel-form.git",
