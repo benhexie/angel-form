@@ -1,5 +1,5 @@
 {
-  "name": "@benhexie/angel-form",
+  "name": "angel-form",
   "version": "1.0.0",
   "description": "A form state management package for React.",
   "main": "index.js",
