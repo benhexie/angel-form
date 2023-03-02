@@ -1,6 +1,6 @@
 {
   "name": "angel-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A form state management package for React.",
   "main": "index.js",
   "repository": "https://github.com/benhexie/angel-form.git",
@@ -9,7 +9,14 @@
   "peerDependencies": {
     "react": "^18.2.0"
   },
-  "keywords": ["react", "form", "forms", "state", "hook", "form-validation"],
+  "keywords": [
+    "react",
+    "form",
+    "forms",
+    "state",
+    "hook",
+    "form-validation"
+  ],
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "prop-types": "^15.8.1",
