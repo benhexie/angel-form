@@ -1,7 +1,7 @@
 {
   "name": "@benhexie/angel-form",
   "version": "1.0.0",
-  "description": "A stateful dynamic form generator for React.",
+  "description": "A form state management package for React.",
   "main": "index.js",
   "repository": "https://github.com/benhexie/angel-form.git",
   "author": "Benedict Gabriel <benedictgabriel73@gmail.com>",
@@ -9,6 +9,7 @@
   "peerDependencies": {
     "react": "^18.2.0"
   },
+  "keywords": ["react", "form", "forms", "state", "hook", "form-validation"],
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "prop-types": "^15.8.1",
