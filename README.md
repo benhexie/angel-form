@@ -64,5 +64,5 @@ const App = () => {
 ```
 
 ### Contributors
-FlexiSaf FYP
+[FlexiSaf CohortT12023](https://www.linkedin.com/company/flexisafedusoftlimited/mycompany/)
 ##### Contributions are welcome :)
