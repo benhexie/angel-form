@@ -1,4 +1,7 @@
 <div align="center">
+  
+  ## Please do not install this package. We are currently fixing some errors. We're sorry if you had to deal with that.
+
   <img src="https://github.com/benhexie/angel-form/blob/d2c9af7c85ba1e23c0abe21793449cc1b2e92460/assets/logo/angel-form-cover.png?raw=true" width="100%" />
 </div>
 
