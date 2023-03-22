@@ -6,6 +6,9 @@
   "repository": "https://github.com/benhexie/angel-form.git",
   "author": "Benedict Gabriel <benedictgabriel73@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "publish": "npm publish"
+  },
   "keywords": [
     "react",
     "form",
